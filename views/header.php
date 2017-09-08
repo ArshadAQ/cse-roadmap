@@ -14,4 +14,4 @@
                A roadmap for CS
   </span>
 </header>
-<div id = "middle" class="container white topBotomBordersOut" style="padding:8em;">
+<div id = "middle" class="container_1 teal topBotomBordersOut" style="padding:8em;">

@@ -132,7 +132,7 @@ footer span
 div{
 	font-family: Raleway;
 }
-div.container
+div.container_1
 {
     font-family: Raleway;
     margin: 0 auto;
@@ -140,7 +140,7 @@ div.container
 	text-align: center;
 }
 
-div.container a
+div.container_1 a
 {
     color: #FFF;
     text-decoration: none;
