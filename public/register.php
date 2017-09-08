@@ -7,7 +7,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "GET")
     {
         // else render form
-        render("register_form.php", NULL, ["title" => "Register"]);
+        render("register_form.php", NULL, NULL,NULL, ["title" => "Register"]);
     }
 
     // else if user reached page via POST (as by submitting a form via POST)
@@ -29,7 +29,7 @@
         }
 
         // insert new user into database
-        $rows = CS50::query("INSERT IGNORE INTO users (username, hash, cash) VALUES(?, ?, 10000.0000)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT));;
+        $rows = CS50::query("INSERT IGNORE INTO users (username, hash) VALUES(?, ?)", $_POST["username"], password_hash($_POST["password"], PASSWORD_DEFAULT));;
 
         if ($rows !== 1)
         {

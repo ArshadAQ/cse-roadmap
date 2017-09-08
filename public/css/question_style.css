@@ -101,6 +101,7 @@ header
     font-family: Raleway;
    	padding: 6em 3em;
 	text-align: center;
+	margin:0px;
     
 }
 footer
@@ -109,7 +110,7 @@ footer
     padding: 6em 3em;
     text-align: center;
     background:black;
-    
+    margin:0px;
 }
 header h1
 {
@@ -165,6 +166,10 @@ div.container a
 .teal
 {
     background: #009688;
+}
+.white
+{
+    background: #ffffff;
 }
 
 .green

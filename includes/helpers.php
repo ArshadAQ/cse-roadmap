@@ -16,7 +16,7 @@
      */
     function apologize($message)
     {
-        render("apology.php", ["message" => $message]);
+        render("apology.php", NULL, NULL, NULL, ["message" => $message]);
     }
 
     /**
@@ -150,10 +150,11 @@
             {
                 require("../views/{$view}");
             }
+            require("../views/footer.php");
             //require("../views/{$view}");
-            if($view !== "history_form.php" && $view !== "history_form_1.php")
-                require("../views/middle.php");
-            if($view1 !== NULL)
+           // if($view !== "history_form.php" && $view !== "history_form_1.php")
+             //   require("../views/middle.php");
+            /*if($view1 !== NULL)
             {
                 require("../views/{$view1}");
             }
@@ -176,7 +177,7 @@
                 require("../views/{$view3}");
             }
             //require("../views/{$view2}");
-            require("../views/footer_1.php");
+            //require("../views/footer_1.php");*/
             exit;
         }
         else if (file_exists("../../views/{$view}"))
