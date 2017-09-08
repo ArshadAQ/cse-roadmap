@@ -38,8 +38,8 @@
                 // remember that user's now logged in by storing user's ID in session
                 $_SESSION["id"] = $row["id"];
 
-                // redirect to portfolio
-                redirect("/");
+                // redirect to index
+                redirect("/index.php");
             }
         }
 
