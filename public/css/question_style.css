@@ -8,26 +8,26 @@ html, body
 }
 
 body{
-	text-transform: uppercase;
-	height:100%;
+    text-transform: uppercase;
+    height:100%;
 
 
 }
 #quest{
-	margin-left: 150px;
-	font-family:'Montserrat', sans-serif;
+    margin-left: 150px;
+    font-family:'Montserrat', sans-serif;
 }
 ul{
-	list-style-type: none;
-	width: 220px;
-	margin: auto;
+    list-style-type: none;
+    width: 220px;
+    margin: auto;
 }
 
 li {
-	position: relative;
-	padding: 10px;
-	padding-left: 40px;
-	height:30px;
+    position: relative;
+    padding: 10px;
+    padding-left: 40px;
+    height:30px;
 }
 
 label:before {
@@ -37,25 +37,25 @@ label:before {
     background: #333;
     position: absolute;
     left: 7px;
-		top: calc(50% - 13px);
+        top: calc(50% - 13px);
     box-sizing: border-box;
     border-radius: 50%;
 }
 
 input[type="radio"] {
-	opacity: 0;
-	-webkit-appearance: none;
-	display: inline-block;
-	vertical-align: middle;
-	z-index: 100;
-	margin: 0;
-	padding: 0;
+    opacity: 0;
+    -webkit-appearance: none;
+    display: inline-block;
+    vertical-align: middle;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
   width: 100%;
-	height: 30px;
-	position: absolute;
-	left: 0;
-	top: calc(50% - 15px);
-	cursor: pointer;
+    height: 30px;
+    position: absolute;
+    left: 0;
+    top: calc(50% - 15px);
+    cursor: pointer;
 }
 
 .bullet {
@@ -70,27 +70,27 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked ~ .bullet {
-	position:absolute;
-	opacity: 1;
-	animation-name: explode;
-	animation-duration: 0.280s;
+    position:absolute;
+    opacity: 1;
+    animation-name: explode;
+    animation-duration: 0.280s;
 }
 
 
 
 @keyframes explode {
-	0%{
-		opacity: 0;
-		transform: scale(1);
-	}
-	60%{
-		opacity: 1;
-		transform: scale(0.5);
-	}
-	100%{
-		opacity: 1;
-		transform: scale(1);
-	}
+    0%{
+        opacity: 0;
+        transform: scale(1);
+    }
+    60%{
+        opacity: 1;
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 
@@ -99,9 +99,9 @@ input[type="radio"]:checked ~ .bullet {
 header
 {
     font-family: Raleway;
-   	padding: 6em 3em;
-	text-align: center;
-	margin:0px;
+    padding: 6em 3em;
+    text-align: center;
+    margin:0px;
     
 }
 footer
@@ -130,14 +130,14 @@ footer span
   color: #AAA;
 }
 div{
-	font-family: Raleway;
+    font-family: Raleway;
 }
 div.container_1
 {
     font-family: Raleway;
     margin: 0 auto;
-	padding: 20em 3em;
-	text-align: center;
+    padding: 20em 3em;
+    text-align: center;
 }
 
 div.container_1 a
@@ -614,3 +614,31 @@ div.highlightTextIn a:before
     transform: scale(1.2);
 } 
 
+.btn {
+    position:absolute;
+    bottom:180px;
+    right:300px;
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #007e8c;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#d2{
+    margin-left:250px;
+}
