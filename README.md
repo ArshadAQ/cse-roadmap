@@ -1,5 +1,5 @@
 # CSE Roadmap
-This was the prototye that was we built at the **Hello-Web-Hackathon** conducted by **Mozilla** at our University.
+This was the prototye that we built at the **Hello-Web-Hackathon** conducted by **Mozilla** at our University.
 
 The theme was "To Teach the Web/Help the society"
 
